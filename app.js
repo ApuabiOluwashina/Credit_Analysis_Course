@@ -11,7 +11,7 @@
      Leave it empty to run in demo mode (demo-backend.js).
      --------------------------------------------------------- */
   const CONFIG = {
-    API_URL: '',                 // e.g. 'https://script.google.com/macros/s/AKfy.../exec'
+    API_URL: 'https://script.google.com/macros/s/AKfycbw7Y3TcAk3zRmVuDUNKImRPLemxsc7U4u5PyCebSQFexCV7gVOfW6aWN0ctBjW5zL4g/exec',                 // e.g. 'https://script.google.com/macros/s/AKfy.../exec'
     QUIZ_PASS: 70,
     EXAM_PASS: 75,
     CHUNK_MS: 60 * 1000,         // 1-minute WebM clips, each playable on its own
