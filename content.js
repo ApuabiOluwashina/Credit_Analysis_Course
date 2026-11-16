@@ -566,6 +566,7 @@
         exam: { durationMin: 30, questions: [] }
       }
     ],
-    final: { durationMin: 90, questions: [] }
+    final: { durationMin: 90, questions: [{ q: 'What is the formula for expected loss?', options: ['PD + LGD + EAD', 'EAD ÷ PD', 'PD × LGD × EAD', 'LGD − PD'] },
+    { q: 'Which regulator registers non-bank digital lenders?', options: ['CBN', 'FCCPC', 'SEC', 'NDIC'] }] }
   };
 })();
