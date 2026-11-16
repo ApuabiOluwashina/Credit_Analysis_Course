@@ -566,7 +566,33 @@
         exam: { durationMin: 30, questions: [] }
       }
     ],
-    final: { durationMin: 90, questions: [{ q: 'What is the formula for expected loss?', options: ['PD + LGD + EAD', 'EAD ÷ PD', 'PD × LGD × EAD', 'LGD − PD'] },
-    { q: 'Which regulator registers non-bank digital lenders?', options: ['CBN', 'FCCPC', 'SEC', 'NDIC'] }] }
+
+    final: {
+      durationMin: 90,
+      // Draft final exam built on Week 1. Extend it as Weeks 2 to 8 are published,
+      // and keep the FINAL answer string in Code.gs in the same order.
+      questions: [
+        { q: 'Under the 2024 recapitalisation programme, what was the minimum capital for a commercial bank with national authorisation?', options: ['₦50 billion', '₦500 billion', '₦200 billion', '₦25 billion'] },
+        { q: 'A non-interest bank earns its return through structures such as:', options: ['Murabaha and ijarah', 'Repurchase agreements', 'Commercial paper', 'Interest rate swaps'] },
+        { q: 'Why does an MFB licence usually lower a fintech lender\'s cost of funds?', options: ['It removes the need for KYC checks', 'It exempts the lender from CBN supervision', 'It allows unlimited lending to one borrower', 'It allows the lender to take deposits'] },
+        { q: 'A bank on-lends Development Bank of Nigeria funds to an SME. Who carries the credit risk if the SME defaults?', options: ['DBN', 'The participating bank', 'The CBN', 'NIRSAL'] },
+        { q: 'An informal sector applicant has no record at any credit bureau. How should you treat this?', options: ['As evidence of bad character', 'As missing information to fill from other sources', 'As an automatic decline', 'As proof of good character'] },
+        { q: 'In asset finance, the borrower\'s capital contribution is usually:', options: ['Nothing, the lender funds 100%', 'The full asset price, paid later', 'Half the interest, paid upfront', '20% to 30% of the asset price, paid upfront'] },
+        { q: 'Tolu has ₦240,500 of monthly headroom and asks for ₦3 million at 30%. Which change brings the loan within his headroom?', options: ['Extending the tenor to 18 months (about ₦209,010 a month)', 'Shortening the tenor to 6 months', 'Raising the rate to 40%', 'Adding a guarantor but keeping 12 months'] },
+        { q: 'Ibrahim has ₦255,000 a month for debt service. A ₦1 million loan over 3 months at 36% costs ₦353,530 a month. What is his DSCR?', options: ['1.44x', '1.29x', '0.72x', '2.55x'] },
+        { q: 'An Alaba trader sells far more in December and January than from February to April. What repayment structure suits a November loan best?', options: ['Flat instalments over 12 months', 'One bullet repayment in March', 'Interest-only payments with no end date', 'Stepped repayments weighted to December and January'] },
+        { q: 'Which team usually checks that conditions precedent are met before disbursement?', options: ['The relationship manager who sourced the loan', 'Credit administration or operations', 'The borrower', 'The credit bureau'] },
+        { q: 'A loan is disbursed before its security is perfected. Which part of expected loss does this mainly increase?', options: ['PD', 'EAD', 'LGD', 'MPR'] },
+        { q: 'At a commercial bank, who would typically approve a ₦50 million working capital facility?', options: ['The Management Credit Committee', 'A branch teller', 'The relationship manager alone', 'The borrower\'s market association'] },
+        { q: 'Which of these is NOT an acceptable recovery practice in Nigeria?', options: ['Calling on the guarantor', 'Activating the GSI mandate', 'Offering a restructure', 'Messaging the borrower\'s phone contacts to shame them'] },
+        { q: 'A trader has adjusted monthly sales of ₦38 million and a 14% gross margin. What is the monthly gross profit?', options: ['₦3,800,000', '₦5,320,000', '₦5,000,000', '₦14,000,000'] },
+        { q: 'FirstCentral shows an MFB loan the applicant did not declare, but it is being repaid on time. What is the best response?', options: ['Record it in the memo, require a full debt declaration and add a no-new-debt covenant', 'Ignore it because it is current', 'Decline and blacklist the applicant', 'Report the applicant to the police'] },
+        { q: 'Why do analysts pull reports from more than one credit bureau?', options: ['The CBN requires exactly three reports', 'It is cheaper than pulling one', 'Lenders may report to different bureaus, so one report can miss debt', 'The bureaus share a single database'] },
+        { q: 'Higher diesel prices after fuel subsidy removal squeeze a cold room operator\'s margins. Which C is this?', options: ['Character', 'Conditions', 'Capital', 'Collateral'] },
+        { q: 'A ₦20 million loan has a PD of 5% and an LGD of 40%. What is the expected loss?', options: ['₦1,000,000', '₦8,000,000', '₦200,000', '₦400,000'] },
+        { q: 'Why should you ask about ajo, esusu and cooperative obligations?', options: ['They are regulated by the CBN', 'They always appear on bureau reports', 'They are paid from the same income but rarely show on bureau reports', 'They can be used as collateral'] },
+        { q: 'A loan app lends ₦200,000 for 2 months at 4% flat per month plus a 1% upfront fee. What is the total cost of credit?', options: ['₦18,000', '₦16,000', '₦8,000', '₦10,000'] }
+      ]
+    }
   };
 })();
