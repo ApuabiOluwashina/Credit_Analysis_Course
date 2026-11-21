@@ -1,4 +1,4 @@
-# Naira Credit Academy
+# Institute of Credit Risk Professionals (ICRP)
 
 An 8-week credit analyst training platform for Nigerian banks, MFBs and digital lenders. The frontend is plain HTML, CSS and JavaScript. Google Sheets holds the data, Apps Script is the API, and Google Drive stores the exam recordings.
 
