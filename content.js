@@ -1,5 +1,5 @@
 /* =========================================================
-   Naira Credit Academy — content.js
+   Institute of Credit Risk Professionals (ICRP) — content.js
    Curriculum, lesson HTML, SVG infographics and quiz/exam
    QUESTIONS ONLY. Correct answers live in the Answer_Key sheet
    (seeded by Code.gs) and are never sent to the browser.
